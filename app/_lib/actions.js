@@ -47,7 +47,7 @@ export async function deleteBooking(bookingId) {
   revalidatePath("/account/reservations");
 }
 
-export async function updateReservation(formData) {
+export async function updateBooking(formData) {
   const bookingId = Number(formData.get("bookingId"));
 
   const session = await auth();

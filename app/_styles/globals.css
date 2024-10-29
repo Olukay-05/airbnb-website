@@ -38,3 +38,10 @@
   --rdp-background-color: theme("colors.accent.600") !important;
   margin: 0 !important;
 }
+
+/* .rdp {
+  --rdp-cell-size: 32px !important;
+  --rdp-accent-color: #f59e0b !important;
+  --rdp-background-color: #d97706 !important;
+  margin: 0 !important;
+} */
